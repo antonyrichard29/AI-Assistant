@@ -1,5 +1,3 @@
-## **README for AI Assistant**
-
 ### **Project Title**  
 AI Assistant
 
