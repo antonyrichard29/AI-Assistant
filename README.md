@@ -68,3 +68,20 @@ Once everything is set up, run the application with:
 python app.py
 ```
 The app will be available at: http://127.0.0.1:5000
+
+### **Exposing the Application to the Internet Using Ngrok**
+To allow external users to access the AI Assistant, use Ngrok.
+
+1. **Install Ngrok**
+   Download and install Ngrok from the official website.
+2. **Authenticate Ngrok**
+   Use the following command to authenticate Ngrok with your account:
+```bash
+ngrok authtoken your-ngrok-auth-token
+```
+3. **Start Ngrok Tunnel**
+   Expose your local server to the internet:
+```bash
+ngrok http 5000
+```
+Ngrok will generate a public URL like: https://your-ngrok-url.ngrok.io
