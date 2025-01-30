@@ -13,7 +13,7 @@ The AI Assistant is an AI-powered chatbot application built using **Flask** for 
 
   ![Screenshot 2025-01-30 233812](https://github.com/user-attachments/assets/6cf666fc-45d6-4f9c-9520-a0ac3ceb806b)
 
-![Screenshot 2025-01-30 233906](https://github.com/user-attachments/assets/955f8d90-cb06-4648-a708-385fa9170af9)
+  ![Screenshot 2025-01-30 233906](https://github.com/user-attachments/assets/955f8d90-cb06-4648-a708-385fa9170af9)
 
 ### **Installation**
 
