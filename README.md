@@ -85,3 +85,6 @@ ngrok authtoken your-ngrok-auth-token
 ngrok http 5000
 ```
 Ngrok will generate a public URL like: https://your-ngrok-url.ngrok.io
+
+### **Contributing**
+If you would like to contribute to this project, please fork the repository, create a new branch, make your changes, and submit a pull request.
