@@ -83,5 +83,47 @@ ngrok http 5000
 ```
 Ngrok will generate a public URL like: https://your-ngrok-url.ngrok.io
 
+## **AI Models**
+You can download and use any AI model in the AI Assistant app, as long as it's compatible with Ollama. 
+
+## **AI Models and System Specifications**
+
+### **Model Parameters and System Requirements**
+
+AI models run based on the parameters you choose and the system specifications of your machine. It is important to understand the system requirements for running these models effectively. Below are some key points to consider:
+
+### **Model Parameters**
+- **Model Size**: Some AI models may require more resources depending on their size. Larger models generally demand more RAM and processing power.
+- **Model Version**: Ensure that you are using the correct version of the model, as certain versions may have different performance requirements.
+  
+For example:
+   - `deepseek-r1:1.5b` might have different resource usage compared to `gemma2:2b`. Larger models typically consume more memory and computational power.
+
+### **System Specifications**
+AI models require different system specifications to run efficiently. Ensure your machine meets the following requirements based on the model's needs:
+
+- **Processor (CPU)**: A multi-core processor (Intel i7 or higher recommended) is usually required for better performance.
+- **RAM**: Larger models may require more RAM. For example, `mistral` may require 16GB of RAM or more, while smaller models may work fine with 8GB.
+- **GPU** (Optional but recommended): Some models can be run more efficiently with a GPU, especially when dealing with more complex tasks. If your system supports CUDA or OpenCL, consider using a GPU for improved performance.
+- **Disk Space**: Ensure your machine has sufficient disk space to download and store the model files. Models can take several GBs, especially those with higher parameters.
+
+### **Running Models Based on System Specifications**
+When you choose a model, ensure that the system you're using has enough resources to support the model's demands. Larger models (e.g., `phi3.5`, `mistral`) may not run efficiently on lower-specification systems. If you experience performance issues, consider using smaller models or upgrading your system's resources.
+
+### **Model Performance and Customization**
+- **Performance Tuning**: You can adjust the model's performance by tweaking certain parameters based on your system’s specifications. Some models may allow you to adjust batch size or other configurations for optimal performance.
+- **Load Balancing**: If your system supports multiple cores or GPUs, consider distributing the load across resources to improve speed and efficiency.
+
+### **Best Practices**
+- Always check the system requirements of the model you plan to use before running it.
+- Use models that match your system's specifications for optimal performance.
+- Monitor your system’s resource usage (CPU, RAM, GPU) when running models to prevent system overload.
+
+By following these guidelines, you can ensure smooth operation when using AI models in your application.
+
+### **Customizing AI Models in the App**
+Once you have chosen and downloaded a model, you can update the app to use it as described in the [Customizing AI Models in the App](#customizing-ai-models-in-the-app) section.
+
+
 ### **Contributing**
 If you would like to contribute to this project, please fork the repository, create a new branch, make your changes, and submit a pull request.
