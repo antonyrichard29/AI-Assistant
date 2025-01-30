@@ -9,7 +9,7 @@ The AI Assistant is an AI-powered chatbot application built using **Flask** for 
 - **Database**: SQLite
 - **Tools**: Ngrok, Python 3.x
 
-  ![AI Assistant Logo]([https://github.com/antonyrichard29/AI-Assistant/raw/main/images/ai-logo.png](https://github.com/antonyrichard29/AI-Assistant/blob/main/Screenshot%202025-01-30%20191819.png))
+  ![AI Assistant](https://github.com/antonyrichard29/AI-Assistant/raw/main/images/ai-logo.png](https://github.com/antonyrichard29/AI-Assistant/blob/main/Screenshot%202025-01-30%20191819.png)
 
 
 ### **Installation**
