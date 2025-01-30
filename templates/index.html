@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Assistant</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h2>AI Assistant</h2>
+
+            <div class="model-selection">
+                <label for="model-select">Select Model</label>
+                <div class="dropdown">
+                    <button class="dropdown-button" id="model-select">Gemma 2 (2B) (default)</button>
+                    <div class="dropdown-content">
+                        <div class="dropdown-item" data-value="deepseek-r1:1.5b">
+                            <img src="/static/logos/deepseek.png" alt="DeepSeek R1 Logo" class="model-image"> DeepSeek R1 (1.5B)
+                        </div>
+                        <div class="dropdown-item" data-value="gemma2:2b">
+                            <img src="/static/logos/gemma.png" alt="Gemma Logo" class="model-image"> Gemma 2 (2B)
+                        </div>
+                        <div class="dropdown-item" data-value="llama3.2:3b">
+                            <img src="/static/logos/llama.png" alt="Llama Logo" class="model-image"> Llama 3.2 (3B)
+                        </div>
+                        <div class="dropdown-item" data-value="qwen2.5:3b">
+                            <img src="/static/logos/qwen.png" alt="Qwen Logo" class="model-image"> Qwen 2.5 (3B)
+                        </div>
+                        <div class="dropdown-item" data-value="phi3.5:3.8b">
+                            <img src="/static/logos/phi.png" alt="Phi Logo" class="model-image"> Phi 3.5 (3.8B)
+                        </div>
+                        <div class="dropdown-item" data-value="mistral">
+                            <img src="/static/logos/mistral.png" alt="Mistral Logo" class="model-image"> Mistral (7B)
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h3>Chat History</h3>
+            <ul id="chat-history-list"></ul>
+        </div>
+
+        <div class="chat-window">
+            <div id="chat-results"></div>
+            <div class="input-area">
+                <input type="text" id="user-input" placeholder="Type your message here...">
+                <button id="send-button">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
