@@ -66,4 +66,5 @@ To run the AI Assistant locally, you'll need to install **Ollama** and download 
 Once everything is set up, run the application with:
 ```bash
 python app.py
+```
 The app will be available at: http://127.0.0.1:5000
