@@ -83,10 +83,8 @@ ngrok http 5000
 ```
 Ngrok will generate a public URL like: https://your-ngrok-url.ngrok.io
 
-## **AI Models**
-You can download and use any AI model in the AI Assistant app, as long as it's compatible with Ollama. 
-
 ## **AI Models and System Specifications**
+You can download and use any AI model in the AI Assistant app, as long as it's compatible with Ollama.
 
 ### **Model Parameters and System Requirements**
 
