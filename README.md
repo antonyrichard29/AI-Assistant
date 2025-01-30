@@ -8,7 +8,7 @@ The AI Assistant is an AI-powered chatbot application built using **Flask** for 
 
 ### **Technologies Used**
 - **Backend**: Flask, Python
-- **AI Models**: Ollama (DeepSeek, Mistral, Gemma)
+- **AI Models**: Ollama (DeepSeek, Mistral, Gemma, Llama, Qwen, Phi)
 - **Database**: SQLite
 - **Tools**: Ngrok, Python 3.x
 
