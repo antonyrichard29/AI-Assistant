@@ -19,9 +19,7 @@ Installation
 Clone the Repository
 Clone the repository to your local machine:
 
-bash
-Copy
-Edit
+
 git clone https://github.com/your-username/AI-Assistant.git  
 cd AI-Assistant
 Create and Activate a Virtual Environment
