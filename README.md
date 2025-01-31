@@ -1,7 +1,7 @@
 ### **AI Assistant**
 
 ### **Description**  
-The AI Assistant is an AI-powered chatbot application built using **Flask** for the backend and **Ollama** for processing individual AI prompts. It provides a seamless, interactive experience where users can ask questions, and the assistant provides answers based on selected AI models. The application supports **SQLite** for chat history storage and can be accessed remotely using **Ngrok**.
+The AI Assistant is an AI-powered chatbot application built using **Flask** for the backend and **Ollama** for processing individual AI prompts. It provides a seamless, interactive experience where users can ask questions, and the assistant provides answers based on selected AI models. The application supports **SQLite** for chat history storage and can run entirely offline after downloading AI models. Additionally, it can be accessed remotely using **Ngrok** if needed.
 
 ### **Technologies Used**
 - **Backend**: Flask, Python
